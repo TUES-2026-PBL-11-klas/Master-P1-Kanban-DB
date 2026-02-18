@@ -1,3 +1,5 @@
+create database kanban;
+
 CREATE TABLE tasks (
   Posittion INT,
   Token INT,
