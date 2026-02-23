@@ -1,7 +1,7 @@
 create database kanban;
 
 CREATE TABLE tasks (
-  Position INT not null,
+  Position INT primary key not null,
   Token INT not null,
   Deleted BOOL not null,
   Name VARCHAR(255),
