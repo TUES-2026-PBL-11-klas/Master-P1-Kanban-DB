@@ -11,9 +11,11 @@ The database works with 3 tables:
 ## Tasks
 This is the main table for the database. This table holds information for every task. Number of the task, name, description, user token, priority, state and timestamp. 
 Here is an example:
-|Position | Token       | Deleted     | Name      | Description   | Priority | State | Time      |
-|---------|-------------|-------------|-----------|---------------|----------|-------|-----------|
-|1        | 1           | False       | Clean     |Clean the house| 3        | 0     | 2026-02-24|
+|Position | Token       | Deleted     | Name      | Description    | Priority | State | Time      |
+|---------|-------------|-------------|-----------|----------------|----------|-------|-----------|
+|1        | 1           | False       | Overthrow |Kill the queen  | 1        | 1     | 2026-07-24|
+|2        | 2           | False       | Eat       |Eat mcdonalds   | 3        | 0     | 2024-02-12|
+|3        | 2           | False       | Bomb      |Bomb Afghanistan| 5        | 2     | 2016-03-14|
 
 
 ## Users
