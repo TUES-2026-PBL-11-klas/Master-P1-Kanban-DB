@@ -17,7 +17,8 @@ This table connects to tasks via the user token. It contains user token and user
 ## States
 Here are the states of the tasks, it also connects with tasks. Each task has a state number and each number is connected with some state. 
 The states are: 
----Number---State
-0 | Newly created
-1 | Work in progress
-2 | Finished
+|Number | Description      |
+|-------|------------------|
+|0      | Newly created    |
+|1      | Work in progress |
+|2      | Finished         |
