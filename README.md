@@ -1,8 +1,8 @@
 # Master-P1-Kanban-DB
 The database repo for the first project of team Master for the second term PBL
 
-# Download repositorie for database
-
+# Download repository for database
+Open the cmd and enter git clone https://github.com/TUES-2026-PBL-11-klas/Master-P1-Kanban-DB.git afterwards hit enter.
 
 
 # Architecture
