@@ -19,6 +19,6 @@ Here are the states of the tasks, it also connects with tasks. Each task has a s
 The states are: 
 |Number | Description      |
 |-------|------------------|
-|0      | Newly created    |
+|0      | Newly crated    |
 |1      | Work in progress |
 |2      | Finished         |
