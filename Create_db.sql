@@ -8,11 +8,11 @@ CREATE TABLE tasks (
   Description VARCHAR(255),
   Priority INT not null,
   State INT not null,
-  Time timestamp not null,
+  Time TIMESTAMPTZ NOT NULL DEFAULT now(),
   
   FOREIGN KEY (Token) REFERENCES users(Token),
   FOREIGN KEY (State) REFERENCES states(id)
-);
+);	
 
 CREATE TABLE users (
   Token INT primary key,
